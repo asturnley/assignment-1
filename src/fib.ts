@@ -9,5 +9,4 @@ export default function fibonacci(n) {
   }
 
   return fibonacci(n - 1) + fibonacci(n - 2);
-  //test comment for commits
 }

@@ -3,9 +3,9 @@
 import fibonacci from "./fib";
 
 export default (req, res) => {
-  const {num : number} = req.params;
+  const num : number = req.params;
 
-  const fibN = fibonacci(num);
+  const fibN = fibonacci(${num});
   let result = `fibonacci(${num}) is ${fibN}`;
 
   if (fibN < 0) {
